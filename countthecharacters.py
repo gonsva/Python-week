@@ -1,3 +1,4 @@
+
 msg=input("Enter any message: ")
 Q=input("What are you looking for: ")
 

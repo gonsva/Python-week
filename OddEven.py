@@ -4,5 +4,4 @@ while A<=100:
 		print (A,"is even")
 	else:
 		print (A,"is odd")
-
 	A=A+1

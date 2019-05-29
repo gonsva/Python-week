@@ -9,4 +9,3 @@ while i>=0:
 		word=msg[i]+word
 	i=i-1
 print(word)
-

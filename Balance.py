@@ -34,4 +34,3 @@ Balance = Balance % 1
 if onesowed >= 1:
 	print("1s:", onesowed)
 print ("----------")
-
