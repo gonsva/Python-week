@@ -2,7 +2,8 @@ def countalpha(message,alpha):
 	i=0
 	count=0
 	while i<len(message):
-		if message[i].upper()==alpha:
+		if message[i].upper()
+		==alpha:
 			count+=1
 		i+=1
 	if count>0:
