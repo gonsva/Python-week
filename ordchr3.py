@@ -1,20 +1,17 @@
-Alpha=input("Enter any alphabet: ")
+msg=input("Enter any message: ")
+word=0
+i=0
 
-if ord(Alpha)>=65 and ord(Alpha)<=90:
-	print("----------------")
-	print(chr(ord(Alpha)+32))
-	print("----------------")
-else:
-	if ord (Alpha)>=97 and ord(Alpha)<=122:
-		print("----------------")
-		print(chr(ord(Alpha)-32))
-		print("----------------")
-	else:
-		if ord(Alpha)>=48 and ord(Alpha)<=57:
-			print("----------------")
-			print("Digits")
-			print("----------------")
+def change(message):
+	while i<len(msg):
+		if msg[i]==" ":
+			word=word+1
+
+		if ord(msg)>=65 and ord(msg)<=90:
+			print(chr(ord(msg)+32))
 		else:
-			print("----------------")
-			print("Other Character")
-			print("----------------")
+			if ord (msg)>=97 and ord(msg)<=122:
+				print(chr(ord(msg)-32))
+			else:
+				if ord(msg)>=48 and ord(msg)<=57:
+					print(*2)

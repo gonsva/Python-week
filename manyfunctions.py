@@ -1,7 +1,7 @@
 def Ones(num):
 	result=""
 	if num==1:
-		result= "one"
+		result= "One"
 	if num==2:
 		result = "Two"
 	if num==3:
@@ -68,7 +68,7 @@ def Tens(num):
 num=int(input("Enter any number: "))
 answer=""
 if num>=1000 and num<=9999:
-	answer+=Ones(int(num/1000))+"Thousand "
+	answer+=Ones(int(num/1000))+" Thousand "
 	num = num%1000
 
 if num>=100:
@@ -76,7 +76,7 @@ if num>=100:
 	num=num%100
 
 if num>=20:
-	answer+=Tens(int(num/10)*10)
+	answer+=Tens(int(num/10)*10)+" "
 	num=num%10
 
 if num>0 and num<=19:
